@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salário do Vendedor</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Calculadora de Salário do Vendedor</h1>
+
+    <p>Nome do Vendedor:</p>
+    <input type="text" id="nomeVendedor" placeholder="Ex: João">
+
+    <p>Salário Fixo:</p>
+    <input type="number" id="salarioFixo" placeholder="Ex: 1500.00" step="0.01">
+
+    <p>Total de Vendas no Mês:</p>
+    <input type="number" id="totalVendas" placeholder="Ex: 5000.00" step="0.01">
+
+    <button onclick="calcularSalarioFinal()">Calcular Salário Final</button>
+
+    <p id="resultado"></p>
+</body>
+</html>
